@@ -1,8 +1,8 @@
 # Assignment 1 - Designing Models and Analyzing Data (Template)
 (remove: **text between brackets to be removed**)
 
-> * Participant name: (your name)
-> * Project Title: (Title of the problem you are looking and modeling)
+> * Participant name: Harry Skidmore
+> * Project Title: (Escalators and Their Importance)
 
 # General Introduction
 
@@ -15,7 +15,8 @@ The second part of the assignment explores data analysis. Data analysis and visu
 
 # Part 1: Designing a Model - Subway System
 
-(remove: States your motivation clearly: why is it important / interesting to solve this problem?)
+Escalators are an essential part of subway systems. They are designed to take passengers down to point A or B, which could be subway platforms and to the surface. Escalators serve several important tasks, such as getting people to the train cars, or out of the subway. This 
+
 
 (remove: Add real-world examples, if any)
 
