@@ -15,10 +15,10 @@ The second part of the assignment explores data analysis. Data analysis and visu
 
 # Part 1: Designing a Model - Subway System
 
-Escalators are an essential part of subway systems. They are designed to take passengers down to point A or B, which could be subway platforms and to the surface. Escalators serve several important tasks, such as getting people to the train cars, or out of the subway. This 
+Escalators are an essential part of subway systems. They are designed to take passengers down to point A or B, which could be subway platforms and to the surface. Escalators serve several important tasks, such as getting people to the train cars, or out of the subway. If there are problems with these escalators then there are problems with the subway systems.
 
 
-(remove: Add real-world examples, if any)
+(There are several protential problems concerning escalators that need to be addressed if the system is to work correctly. One problem is if there are not enough escalators in the subway then people will not reach the platforms of the station on time to catch the trains to their destinations. The same issue occurs if the escalators are not running at a resonable speed to board the train on time. This also would cause in effect an overcrowding in the station. 
 
 (remove: Put the problem into a historical context, from what does it originate? Are there already some proposed solutions?)
 
