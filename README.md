@@ -25,7 +25,9 @@ The second part of the assignment explores data analysis. Data analysis and visu
 
 ![Image of Subway City System](images/subway_model.png)
 
-## (Part 1.1): Requirements (Experimental Design) **(10%)**
+## (Part 1.1): Requirements (Experimental Design) **(10%)*
+
+Cities face a issue of overcrowding with the subway systems due to people not reaching their trains on time or moving out of the station quickly. A subway escalator is a machine that raise and moves people from point A to B. Based on the issue of people not moving fast enough I hyothesize the escalator systme would help eleviate the issue of overcrowding if it can move the people out a partiulcar speed. My System Objectives are "How many people are moving?" "How fast does the escalator need to move?" How fast does the  
 
 (remove: You should start by specifying a set of requirements. I specified a topic a Subway escalator. What exactly does that mean - practice formulating your own set of requirements and an experiment. Define problems cities face and hypothesize how a subway system could help alleviate these issue. This helps you think about your problem communication and system objectives inputs, functions, and outputs - they should be clearly specified.)
 
