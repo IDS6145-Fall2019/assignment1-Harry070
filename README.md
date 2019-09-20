@@ -40,7 +40,7 @@ Cities face a issue of overcrowding with the subway systems due to people not re
 * [**Agent / User case** (if appropriate)](model/agent_usecase_diagram.md) - provides details of (what are you providing details of)
 
 ## (Part 1.3) Subway (My Problem) Simulation **(10%)**
-
+To solve my problem i would create a virtual simulation. This simulation would focus on making 
 (remove: Describe how you would simulate this - including type of simulation, rough details, inputs, outputs, and how it will help you analyze your experimental hypothesis, or nullify your null hypothesis.)
 
 
