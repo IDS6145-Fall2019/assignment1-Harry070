@@ -53,7 +53,7 @@ You are expected to create the python files - the code should run without errors
 
 ## (Part 1.5) Specifying the Inputs to a System **(10%)**
 
-*Independent variable is the speed of the escalator and the 
+*Independent variable is the speed of the escalator and the number of people in the station. The dependent variable will be how close the number of people in the station is close to the capacity limit for the station
 * The data will come from synthetic data.
 * What kind of statistics are important to capture this input data
 *The data will be analysised with simple statistics such as mean and standard deviation. These will be compared to the capacity of the train station entrance and platform 
