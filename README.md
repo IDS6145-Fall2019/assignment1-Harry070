@@ -53,12 +53,12 @@ You are expected to create the python files - the code should run without errors
 
 ## (Part 1.5) Specifying the Inputs to a System **(10%)**
 
-(remove the below points once ideas are satisfied)
-* Specify the independent and dependent input variables of your subway esclator model
-* Specify where the data will come from measured subset of real data (empirical) or synthetic data
+*Independent variable is the speed of the escalator and the 
+* The data will come from synthetic data.
 * What kind of statistics are important to capture this input data
-* How do you plan to analyze the output of your model?
+*The data will be analysised with simple statistics such as mean and standard deviation. These will be compared to the capacity of the train station entrance and platform 
 * What ways will you visualize your data - charts, and graphs you will create?
+  I will create a series of line graphs to show the number of people in the station throughout the day and show if it exceeds capacity.
 * What clever way will you visualize your output with a useful infographic?
 
 
