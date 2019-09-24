@@ -4,8 +4,3 @@
 
 
 ![Object Diagram](../images/20190923_213541 (2).jpg)
-
-(remove: More decription)
-(remove: Maybe a second or third diagram to highlight a point or aspect)
-
-(remove: each diagram markdown file should roughly follow this template)
