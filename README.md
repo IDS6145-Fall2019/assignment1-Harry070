@@ -71,20 +71,20 @@ Here [**we provide an overview**](code/POTS_system/README.md) of the **P**ortabl
 
 Find a datasource that looks at part of this model - subway stations locations / escalator number, heights, widths / volume of passangers - ridership numbers   (*fits* - we are pretty loose here, it can be anything.)
 
-* Write up a paragraph that describes the data and how it fits into your system.
-* Load the data into Python
-* Calculate a few useful statistic on the data - keep it simple- STD, means, etc..., this is just designed * to get used to working with real data. Explain the insights you derive from these statistics.
+The data is from the Chicago Transit Authority that documents the amount of people who use the bus and the rail system to get around. The data seems to just basically log how many people use either service day by day for over a year's time. The mean for the number of people who take the subway was 421353 people in a week in January, while the standard deviation was 184099. The mean for bus passangers though was 706798, which seems to suggest that many people in Chicago seem to perfer to take the bus rather then the subway. While the reason for this cannot be determined it could be that there is overcrowding and issues with the subway system that makes people decide to rather take the bus. The high number of people in the subway system in just a work week's time though does also show the importance of preventing overcrowding and issues in the subway. With so many people there, many could get hurt. 
+
+
+
 * Visualize the raw data - visualize a few critical aspects of the data to better describe what it is, what it is showing, and why its useful to your system.
 * Calculate and plot some summary statistics that better describe the data.
-
-(Add your plots and visualization here)
+![plotgraph](images/plotgraph.png]
 (Put your data into the data directory)
 
 
 ## (Part 3.2) -  Plotting 2D Random Number Generators **(15%)**
 
 This portion of the assignment looks at generating random numbers in Python and understanding how to properly plot them. Plot two different random numbers, pseudo random and quasi random, for five different N values. There should be 10 subplots, all properly formatted 2D plots. Note, each of the N points will have two coordinates, an x and a y, therefore you will need to generate two random numbers for each point. You should replace the image with your results in a simalar format. Discuss how the patterns differ. Feel free to change the N values from the suggested N values in the image to state your case.
-
+The patterns differ in terms of pseudo and quasi numbers, as well as amoungst themsevles. The scatter graphs for pseudos show an increase as the N number dramataicaully insreases and scatters over the state even more. 
 ![random number generator](images/random number picture.png)
 
 
