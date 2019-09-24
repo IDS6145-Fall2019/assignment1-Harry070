@@ -1,8 +1,8 @@
 # Assignment 1 - Designing Models and Analyzing Data (Template)
 (remove: **text between brackets to be removed**)
 
-> * Participant name: (your name)
-> * Project Title: (Title of the problem you are looking and modeling)
+> * Participant name: Harry Skidmore
+> * Project Title: (Escalators and the Importance of their Speed)
 
 # General Introduction
 
@@ -12,21 +12,21 @@ We will look at **subway model in a city** system. A **subway system** is an und
 
 The second part of the assignment explores data analysis. Data analysis and visualization is key to both the input and output of simulations. This assignment explores different random number generators, distributions, visualizations, and statistics. Additionally, it will look at getting you accustomed to specifying input and output variables to a system. We will also practice working with real data.
 
-
 # Part 1: Designing a Model - Subway System
 
-(remove: States your motivation clearly: why is it important / interesting to solve this problem?)
+(Escalators are an essential part of subway systems. They are designed to take passengers down to point A or B, which could be subway platforms and to the surface. Escalators serve several important tasks, such as getting people to the train cars, or out of the subway. If there are problems with these escalators then there are problems with the subway systems.)
 
-(remove: Add real-world examples, if any)
 
-(remove: Put the problem into a historical context, from what does it originate? Are there already some proposed solutions?)
+(There are several protential problems concerning escalators that need to be addressed if the system is to work correctly. One problem is if the escalators in the subway are not moving fast enough then people will not reach the platforms of the station on time to catch the trains to their destinations. The same issue also would cause in effect an overcrowding in the station.) 
+
+(Historically subway systems have dealt with overcrowding, delays and accidents involving people trying to reach the platforms to catch they subway trains on time. This issue seemed to originate in the early 1800s when people needed to be transported to high areas such as train platforms in large numbers. The train statations would become filled with people and many delays or even accidents occured in the stations as a result. The speed of them became even more important to aleviate the flow of people.)
 
 
 ![Image of Subway City System](images/subway_model.png)
 
-## (Part 1.1): Requirements (Experimental Design) **(10%)**
+## (Part 1.1): Requirements (Experimental Design) **(10%)*
 
-(remove: You should start by specifying a set of requirements. I specified a topic a Subway escalator. What exactly does that mean - practice formulating your own set of requirements and an experiment. Define problems cities face and hypothesize how a subway system could help alleviate these issue. This helps you think about your problem communication and system objectives inputs, functions, and outputs - they should be clearly specified.)
+Cities face a issue of overcrowding with the subway systems due to people not reaching their trains on time or moving out of the station quickly. A subway escalator is a machine that raise and moves people from point A to B. Based on the issue of people not moving fast enough I hyothesize the escalator systme would help eleviate the issue of overcrowding if it can move the people out a partiulcar speed. It should also be noted that  My System Objectives are "How many people are moving?" "How fast does the escalator need to move?" How many people would the main room of the station and the platform hold till it was overcrowded? There would be two inputs, the speed of the escalator and the amount of people in the station. This is due to the fact that stations are built to only accomidate so many people and need to maintain this number legally. This helps prevent over crowding. It is imparative to then measure the output as the number of people in the station. It needs to be below the maximum number of people allowed in the station at any time. By testing different speeds and the number of people we will know what speed to run the escalators at to avoid overcrowding and know if it needs to be adjusted throughout the day. 
 
 ## (Part 1.2) Subway (My Problem) Model **(10%)**
 
@@ -39,9 +39,7 @@ The second part of the assignment explores data analysis. Data analysis and visu
 * [**Agent / User case** (if appropriate)](model/agent_usecase_diagram.md) - provides details of (what are you providing details of)
 
 ## (Part 1.3) Subway (My Problem) Simulation **(10%)**
-
-(remove: Describe how you would simulate this - including type of simulation, rough details, inputs, outputs, and how it will help you analyze your experimental hypothesis, or nullify your null hypothesis.)
-
+I would simulate this by building a virtual subway system. The system would consist of a train platform, a entrance to the station with a wide attriume, both of which are connected by three escalators. The number of people will increase as the time goes by, so the speed needs to change with the amount of people who will come in. The controler of the simulation will then have to increase the speed of the escalators in order to prevent overcrowding in the station. The experimental hyptohesis will be that the controler needs to change speed needs to change as the day goes on, the null hyptohesis will be that the speed doesn't need to be increased. 
 
 ## (Part 1.4) Subway City (My Problem) Model **(10%)**
 [**Code template**](code/README.md) - Starting coding framework for the (insert your exact problem here.)
@@ -49,16 +47,15 @@ You are expected to create the python files - the code should run without errors
 
 
 
-## (Part 1.5) Specifying the Inputs to a System **(10%)**
+### (Part 1.5) Specifying the Inputs to a System **(10%)**
 
-(remove the below points once ideas are satisfied)
-* Specify the independent and dependent input variables of your subway esclator model
-* Specify where the data will come from measured subset of real data (empirical) or synthetic data
+*Independent variable is the speed of the escalator and the number of people in the station. The dependent variable will be how close the number of people in the station is close to the capacity limit for the station
+* The data will come from synthetic data.
 * What kind of statistics are important to capture this input data
-* How do you plan to analyze the output of your model?
+*The data will be analysised with simple statistics such as mean and standard deviation. These will be compared to the capacity of the train station entrance and platform 
 * What ways will you visualize your data - charts, and graphs you will create?
+  I will create a series of line graphs to show the number of people in the station throughout the day and show if it exceeds capacity.
 * What clever way will you visualize your output with a useful infographic?
-
 
 
 # Part 2: Creating a Model from Code
