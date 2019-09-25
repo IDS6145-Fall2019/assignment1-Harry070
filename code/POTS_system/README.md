@@ -3,5 +3,3 @@ Class diagram of POTS system as made from looking at the code and translating it
 
 ![Class diagram of POTS system](images/Class Diagram.png)
 
-![POTS system](../../images/class_example_diagram.png)
-more decription
